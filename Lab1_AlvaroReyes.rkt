@@ -163,13 +163,15 @@ emptyGDocs
 
 (define GDocs (register (register (register emptyGDocs (date 25 10 2021) "user1" "pass1") (date 25 10 2021) "user2" "pass2") (date 25 10 2021) "user3" "pass3"))
 
-; Estrucutra:
+; Estrucutra para la creación de archivos y posterior actualizaciones:
 
 GDocs
 (newline)
 
 ; Ejemplos para su ingreso y creación de un archivo.
 (define GDocs1 ((login GDocs "user2" "pass2" create) (date 28 10 2021) "doc1" "hola1"))
+
+
 ; Estructura actual.
 GDocs1
 (newline)
