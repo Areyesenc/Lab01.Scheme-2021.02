@@ -155,7 +155,7 @@
 (define encryptFn (lambda (s) (list->string (reverse (string->list s)))))
 (define emptyGDocs (paradigmadocs "gdocs" (date 25 10 2021) encryptFn encryptFn))
 
-; Ver el estado
+; Ver el estado del codumento al momento de que el usuario activa una nueva funcion por realizar
 
 emptyGDocs
 (newline)
