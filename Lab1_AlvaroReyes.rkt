@@ -1,6 +1,5 @@
 #lang racket
 
-
 ; constructores
 
 (define (paradigmadocs name date encryptFunction decryptFunction)
