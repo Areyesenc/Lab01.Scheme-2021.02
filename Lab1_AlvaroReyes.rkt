@@ -167,34 +167,4 @@ emptyGDocs
 GDocs
 (newline)
 
-; Ejemplos para su ingreso y creación de un archivo.
-(define GDocs1 ((login GDocs "user2" "pass2" create) (date 28 10 2021) "doc1" "hola1"))
-
-
-; Estructura actual.
-GDocs1
-(newline)
-
-(define GDocs2 ((login GDocs1 "user2" "pass2" create) (date 28 10 2021) "doc2" "hola2"))
-GDocs2
-(newline)
-
-(define GDocs3 ((login GDocs2 "user1" "pass1" create) (date 28 10 2021) "doc2" "hola2"))
-GDocs3
-(newline)
-
-(define GDocs4 ((login GDocs3 "user2" "pass2" share) 1 (access "user1" #\r) (access "user3" #\w)))
-GDocs4
-(newline)
-
-(define GDocs5 ((login GDocs4 "user2" "pass2" add) 1 (date 30 10 2021) "Hola de nuevo"))
-GDocs5
-(newline)
-
-(define GDocs6 (login GDocs5 "user2" "pass2" revokeAllAccesses)) 
-GDocs6
-(newline)
-
-(define S (login GDocs6 "user2" "pass2" paradigmadocs->string))
-(display S)
 
