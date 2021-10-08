@@ -1,0 +1,25 @@
+Autoevaluación
+
+RF:
+
+0: No realizado.
+0.25: Implementación con problemas mayores (funciona 25% de las veces o no funciona)
+0.5: Implementación con funcionamiento irregular (funciona 50% de las veces)
+0.75: Implementación con problemas menores (funciona 75% de las veces)
+1: Implementación completa sin problemas (funciona 100% de las veces)
+
+Resultado - 1: Implementación completa sin problemas (funciona 100% de las veces)
+
+Si bien, no se realiza todas la funciones, si tiene dependencias corectas de cada una para realizar cualquier tipo de consulta.
+
+RNF
+
+0: No realizado.
+0.25: Implementación con problemas mayores (funciona 25% de las veces o no funciona)
+0.5: Implementación con funcionamiento irregular (funciona 50% de las veces)
+0.75: Implementación con problemas menores (funciona 75% de las veces)
+1: Implementación completa sin problemas (funciona 100% de las veces)
+
+0.5: Implementación con funcionamiento irregular (funciona 50% de las veces)
+
+No se implementa el tiempo según lo solicitado, empecé el proyecto faltando 1 semana, producto de realizar tesis y estas casi al 100% enfocado en ella. (No volvera a suceder en el LAB02)
